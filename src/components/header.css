@@ -1,0 +1,11 @@
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 10%;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}

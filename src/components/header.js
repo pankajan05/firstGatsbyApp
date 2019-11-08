@@ -2,6 +2,8 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
 import React from "react"
+import "./layout.css"
+import "./header.css"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -31,10 +33,10 @@ const Header = ({ siteTitle }) => (
     </div>
     <div>
       <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/skills">Skill</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        <li><Link class="link" to="/" >Home</Link></li>
+        <li><Link class="link" to="/skills">Skill</Link></li>
+        <li><Link class="link" to="/about">About</Link></li>
+        <li><Link class="link" to="/contact">Contact</Link></li>
       </ul>
     </div>
   </header>

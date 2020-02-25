@@ -9,21 +9,21 @@ const SkillPage = () => (
     <SEO title="Home" />
     <h1>My Skills</h1>
     <ul>
-      <li>Webdevelopment
+      <li><p>Webdevelopment
         <ul>
           <li>html,css,php,javascript</li>
           <li>mean</li>
           <li>gatsby</li>
           <li>laravel</li>
-        </ul>
-      </li>
+        </ul></p>
+      </li><p>
       <li>programming languages
       <ul>
         <li>Java</li>
         <li>c</li>
         <li>C++</li>
         <li>Arduino</li>
-      </ul></li>
+      </ul></li></p>
     </ul>
   </Layout>
 )
